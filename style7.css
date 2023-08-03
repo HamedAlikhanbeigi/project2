@@ -1,0 +1,67 @@
+@font-face {
+    font-family: roya;
+    src: url(/font/RoyaR.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: roya;
+    src: url(/font/RoyaB.woff)format('woff');
+    font-weight: bold;
+    font-style:normal;
+}
+body{
+	font-family: roya;
+}
+#explanations{
+    text-align:justify;
+}
+#explanations p{
+    font-weight: bold;
+}#content{
+    background-color: #eee;
+}
+#text{
+    font-family:roya;
+    text-align:justify;
+    box-sizing: border-box;
+}
+#image{
+    box-sizing: border-box;
+}
+.Information{
+	font-size:14px;
+	padding:10px 30px;
+	background-color: #999;
+	border-bottom: 1px solid #a51010;
+}
+.Information ul{
+	list-style-type: none;	
+}
+
+.Information a{
+	text-decoration: none;
+	color: black;
+}
+.icon{
+	display: flex;
+	justify-content: center;
+	background-color: #777;
+}
+.icon img{
+	width: 25px;
+}
+.Phonenumber{
+	display: flex;
+	justify-content: space-around;
+	background-color: #555;
+}
+.Phonenumber img{
+	width: 20px;
+	vertical-align: top;
+}
+.Phonenumber span{
+	text-align: center;
+	font-size: 14px;
+}
+
